@@ -1,11 +1,11 @@
-
+import DebounceFetch from './Components/DebounceFetch/DebounceFetch'
+import DebounceAxios from './Components/DebounceAxios/DebounceAxios'
 
 function App() {
-
-
   return (
     <>
-      <h1>hello there</h1>
+    <DebounceFetch/>
+    <DebounceAxios/>
     </>
   )
 }
